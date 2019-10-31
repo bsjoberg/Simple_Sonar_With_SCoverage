@@ -28,6 +28,7 @@ clear and concise. Here's an example:
 import scala.collection._
 import org.scalatest.Assertions
 import org.junit.Test
+import org.scalatestplus.junit.JUnitRunner
 
 class StackSuite extends Assertions {
 
@@ -54,7 +55,7 @@ import org.scalatest.FunSuite
 import org.scalatest.Matchers
 
 import org.junit.runner.RunWith
-import org.scalatest.junit.JUnitRunner
+
 @RunWith(classOf[JUnitRunner])
 class ListSuite extends FunSuite with Matchers {
 

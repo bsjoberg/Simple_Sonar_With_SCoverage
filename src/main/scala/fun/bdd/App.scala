@@ -5,10 +5,12 @@ package fun.bdd
  */
 object App {
   
-  def foo(x : Array[String]) = x.foldLeft("")((a,b) => a + b)
-  
+  def foo(x : Array[String]): String = x.foldLeft("")((a,b) => a + b)
+
+  def sayHi: String = "Hello World!"
+
   def main(args : Array[String]) {
-    println( "Hello World!" )
+    println( sayHi )
     println("concat arguments = " + foo(args))
   }
 
