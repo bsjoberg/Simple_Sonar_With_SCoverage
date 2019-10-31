@@ -1,3 +1,6 @@
 Need to set the path in the sonar (i.e. localhost or server or cloud) administration for scala to "target/scoverage.xml"
 
 From SonarQube dashboard click Administration -> Languages and select Scala.
+
+To run maven with a different Java version just use the command below but replace the specific java path.
+   JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 mvn
