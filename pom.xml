@@ -23,7 +23,7 @@
         <scala.compat.version>2.12</scala.compat.version>
         <spec2.version>4.8.0</spec2.version>
         <scoverage.plugin.version>1.4.0-RC1</scoverage.plugin.version>
-        <scalac-scoverage-plugin.version>1.4.0</scalac-scoverage-plugin.version>
+        <sonar.scoverage.reportPath>target/scoverage.xml</sonar.scoverage.reportPath>
     </properties>
 
     <dependencies>
@@ -58,12 +58,6 @@
             <version>${spec2.version}</version>
             <scope>test</scope>
         </dependency>
-<!--        <dependency>
-            <groupId>org.scoverage</groupId>
-            <artifactId>scalac-scoverage-plugin_${scala.compat.version}</artifactId>
-            <version>${scalac-scoverage-plugin.version}</version>
-            <scope>provided</scope>
-        </dependency>-->
         <dependency>
             <groupId>org.scoverage</groupId>
             <artifactId>scoverage-maven-plugin</artifactId>
