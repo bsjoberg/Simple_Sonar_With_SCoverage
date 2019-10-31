@@ -23,7 +23,7 @@
         <scala.compat.version>2.12</scala.compat.version>
         <spec2.version>4.8.0</spec2.version>
         <scoverage.plugin.version>1.4.0-RC1</scoverage.plugin.version>
-        <sonar.scoverage.reportPath>target/scoverage.xml</sonar.scoverage.reportPath>
+        <sonar.scala.coverage.reportPath>target/scoverage.xml</sonar.scala.coverage.reportPath>
     </properties>
 
     <dependencies>
