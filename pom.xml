@@ -117,7 +117,8 @@
                     <filereports>TestSuiteReport.txt</filereports>
                     <!-- Comma separated list of JUnit test class names to execute -->
                     <suites>*Suite</suites>
-                    <jUnitClasses>samples.AppTest, samples.MySpecTest, samples.ExampleSpec, samples.StackSuite
+                    <jUnitClasses>samples.AppTest, samples.MySpecTest, samples.ExampleSpec, samples.StackSuite,
+                        samples.FizzBuzzTest
                     </jUnitClasses>
                 </configuration>
                 <executions>
