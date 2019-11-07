@@ -1,8 +1,11 @@
 package samples
 
 import fun.bdd.FizzBuzz
+import org.junit.runner.RunWith
 import org.scalatest.{FeatureSpec, GivenWhenThen}
+import org.scalatestplus.junit.JUnitRunner
 
+@RunWith(classOf[JUnitRunner])
 class FizzBuzzFeatureSpec extends FeatureSpec with GivenWhenThen {
   feature("FizzBuzz counter") {
     scenario("FizzBuzz can print to a user defined number") {

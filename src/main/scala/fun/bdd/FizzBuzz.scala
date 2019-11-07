@@ -1,6 +1,10 @@
 package fun.bdd
 
 object FizzBuzz {
+  def main(args: Array[String]): Unit = {
+    println(countTo(100))
+  }
+
   def countTo(count: Int): String = {
     var countString: String = ""
     for (i <- 1 to count) {

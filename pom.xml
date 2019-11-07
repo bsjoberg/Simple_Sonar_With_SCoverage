@@ -118,7 +118,7 @@
                     <!-- Comma separated list of JUnit test class names to execute -->
                     <suites>*Suite</suites>
                     <jUnitClasses>samples.AppTest, samples.MySpecTest, samples.ExampleSpec, samples.StackSuite,
-                        samples.FizzBuzzTest, samples.FizzBuzzSpec
+                        samples.FizzBuzzTest, samples.FizzBuzzSpec, samples.FizzBuzzFeatureSpec
                     </jUnitClasses>
                 </configuration>
                 <executions>
