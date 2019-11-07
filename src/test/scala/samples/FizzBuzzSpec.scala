@@ -22,11 +22,5 @@ class FizzBuzzSpec extends FunSpec {
       assert("fizzbuzz" == FizzBuzz.getResult(15))
       assert("fizzbuzz" == FizzBuzz.getResult(30))
     }
-
-    it ("should return fizz buzz fizzbuzz when counting to 20") {
-      assert("1 2 fizz 4 buzz fizz 7 8 fizz buzz " +
-        "11 fizz 13 14 fizzbuzz 16 17 fizz 19 buzz" == FizzBuzz.countTo(20))
-    }
   }
-
 }
